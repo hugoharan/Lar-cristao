@@ -23,6 +23,7 @@ body{
     right: 0;
     top: 0;
     left: 0;
+    font-family: Poppins;
 }
 
 .flex_row{
@@ -97,7 +98,7 @@ body{
     display: flex;
     flex: 1;
     flex-direction: row;
-    font-family: 'Lato', sans-serif;
+    font-family: Poppins;
     text-align: justify;
     border-radius: 8px;
 }
@@ -142,4 +143,32 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
     font-family: Poppins;
+}
+#Alegria{
+    margin-top: 50px;/*VOLTAR NESSA PARTE*/
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex: 1;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Alegria>div{
+    margin: 10px;
+    font-family: Poppins;
+    text-align: justify;
+    left: auto;
+    right: auto;
+}
+#Alegria>div>img{
+    max-width: 100%;    
+}
+#Alegria>div>p{
+    margin: 10px;
+    width: 40%;
+    max-width: 100%;
+    text-align: justify;
 }
