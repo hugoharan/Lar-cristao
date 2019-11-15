@@ -120,29 +120,26 @@ body{
 .A_principal{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
+    margin: 10px;
 }
-.A1{
-    display: flex;
-    flex-direction: column;
-}
-.A2{
-    display: flex;
-    flex-direction: column;
-}
-.A1>div{
-    padding: 60px;
-    margin: 30px;
+.A_principal>div{
+    align-items: center;
     border-radius: 16px;
-    display: flex;
-    flex-direction: column;
+    font-family: Poppins;
 }
-.A2>div{
-    padding: 60px;
-    margin: 30px;
-    border-radius: 16px;
+.A_sec{
     display: flex;
     flex-direction: column;
+    font-family: Poppins;
+}
+.A_sec>p{
+    text-align: justify;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Poppins;
 }
