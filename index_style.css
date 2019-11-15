@@ -4,6 +4,9 @@ header{
     color: white;
     background-size: auto;
 }
+footer{
+    margin-top: 50px;
+}
 header>section{
     margin: 50px;
 }
@@ -110,13 +113,15 @@ body{
 }
 .video{
     display: flex;
-    flex-basis: 50%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
-.video>img{
-    align:center;
+.video>div{
+    padding: 50px;
 }
 .A_principal{
     display: flex;
@@ -147,21 +152,17 @@ body{
 #Alegria{
     margin-top: 50px;/*VOLTAR NESSA PARTE*/
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
     flex-shrink: 0;
-    flex: 1;
-    flex-basis: 50%;
     justify-content: center;
     align-items: center;
 }
 
-#Alegria>div{
-    margin: 10px;
+#Alegria>div{    
     font-family: Poppins;
-    text-align: justify;
-    left: auto;
-    right: auto;
+    left: 25%;
+    width: 50%;
 }
 #Alegria>div>img{
     max-width: 100%;    
@@ -171,4 +172,27 @@ body{
     width: 40%;
     max-width: 100%;
     text-align: justify;
+}
+#A_sec{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+#A_sec>div{
+    margin: 10px;
+    flex-wrap: wrap;
+}
+#A_sec>div>p,h1{
+    width: 60%;
+    margin: 20px;
+    text-align: justify;
+}
+.maps{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    
 }
